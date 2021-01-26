@@ -3,6 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
+  background-color: black;
 }
 
 #root {
@@ -23,6 +24,16 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
+  animation-name: pop;
+  animation-duration: 2s;
+}
+@keyframes pop {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .joinInnerContainer {
