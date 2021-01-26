@@ -4,6 +4,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: black;
+  background-color: black;
 }
 
 #root {
@@ -24,10 +25,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  animation-name: pop;
+  animation-name: popup;
   animation-duration: 2s;
 }
-@keyframes pop {
+@keyframes popup {
   from {
     opacity: 0;
   }
