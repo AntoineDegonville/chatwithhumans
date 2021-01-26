@@ -2,8 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: black;
-  border-radius: 4px 4px 0 0;
+  background-image: linear-gradient(to right, #bfa053, #58472f);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   height: 60px;
   width: 100%;
 }
@@ -13,7 +14,7 @@
   display: flex;
   align-items: center;
   margin-left: 5%;
-  color: white;
+  color: black;
 }
 
 .rightInnerContainer {

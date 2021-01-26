@@ -19,7 +19,10 @@ body {
   text-align: center;
   height: 100vh;
   align-items: center;
-  background-color: #1a1a1d;
+  background-image: url("https://res.cloudinary.com/dta6lllnx/image/upload/v1611685344/Chat/3DBLNDRpn2_zl1nfq.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .joinInnerContainer {
@@ -34,6 +37,7 @@ body {
 
 .heading {
   color: white;
+  /* background-color: black; */
   font-size: 2.5em;
   padding-bottom: 10px;
   border-bottom: 2px solid white;
@@ -43,12 +47,14 @@ body {
   color: #fff !important;
   text-transform: uppercase;
   text-decoration: none;
-  background: #2979ff;
+  background: black;
   padding: 20px;
   border-radius: 5px;
   display: inline-block;
   border: none;
   width: 100%;
+  align-items: center;
+  text-align: center;
 }
 
 .mt-20 {

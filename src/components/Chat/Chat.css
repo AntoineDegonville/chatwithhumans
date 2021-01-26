@@ -3,14 +3,17 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #1a1a1d;
+  background-image: url("https://res.cloudinary.com/dta6lllnx/image/upload/v1611685344/Chat/3DBLNDRpn2_zl1nfq.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #ffffff;
+
   border-radius: 8px;
   height: 600px;
   width: 35%;
